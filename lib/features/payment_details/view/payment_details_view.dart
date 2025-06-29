@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import '../../../helper/text_styles.dart';
 import '../../success_payment/view/success_payment_view.dart';
 import '../widgets/custom_credit_card.dart';
-import '../widgets/payment_methods_list.dart';
 
 class PaymentDetailsView extends StatefulWidget {
   const PaymentDetailsView({super.key});
@@ -29,7 +28,7 @@ class _PaymentDetailsViewState extends State<PaymentDetailsView> {
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
-            SliverToBoxAdapter(child: PaymentMethodsList()),
+            // SliverToBoxAdapter(child: PaymentMethodsList()),
             SliverToBoxAdapter(
                 child: CustomCreditCard(
               autoValidateMode: autoValidateMode,

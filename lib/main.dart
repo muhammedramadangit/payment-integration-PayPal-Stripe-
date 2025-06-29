@@ -1,8 +1,10 @@
+import 'package:checkout_payment/features/checkout/view/cart_view.dart';
+import 'package:checkout_payment/services/api_keys.dart';
 import 'package:flutter/material.dart';
-
-import 'features/cart/view/cart_view.dart';
+import 'package:flutter_stripe/flutter_stripe.dart';
 
 void main() {
+  Stripe.publishableKey = ApiKeys.publishKey;
   runApp(const CheckOutApp());
 }
 
@@ -16,7 +18,7 @@ class CheckOutApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "cairo-medium",
       ),
-      home: CartView(),
+      home: CheckoutView(),
     );
   }
 }

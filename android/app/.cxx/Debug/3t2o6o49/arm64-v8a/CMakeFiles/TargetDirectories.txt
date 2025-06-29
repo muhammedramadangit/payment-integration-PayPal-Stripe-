@@ -1,0 +1,2 @@
+/Users/muhammedramadan/Desktop/fsc/checkout_payment/android/app/.cxx/Debug/3t2o6o49/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/muhammedramadan/Desktop/fsc/checkout_payment/android/app/.cxx/Debug/3t2o6o49/arm64-v8a/CMakeFiles/rebuild_cache.dir
